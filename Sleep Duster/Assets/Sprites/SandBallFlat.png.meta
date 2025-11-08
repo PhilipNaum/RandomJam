@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2e51aff331177e942b8e626cab3533ce
+guid: f7f5150465d80d54db82edeabfe6f3d0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5190299140411600157
-    second: GameBackground_0
+      213: -7833076651413684681
+    second: SandBallFlat_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 142
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -152,13 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GameBackground_0
+      name: SandBallFlat_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 720
-        height: 1024
+        x: 7
+        y: 7
+        width: 51
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,8 +167,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1daf3e9195a70840800000000000000
-      internalID: 5190299140411600157
+      spriteID: 73eb41679425b4390800000000000000
+      internalID: -7833076651413684681
       vertices: []
       indices: 
       edges: []
@@ -187,7 +187,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GameBackground_0: 5190299140411600157
+      SandBallFlat_0: -7833076651413684681
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

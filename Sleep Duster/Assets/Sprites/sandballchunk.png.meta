@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2e51aff331177e942b8e626cab3533ce
+guid: aa1889d678479a54dbdc0638edbcecbc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5190299140411600157
-    second: GameBackground_0
+      213: 8103200705458917192
+    second: sandballchunk_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 142
+  spritePixelsToUnits: 120
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -152,13 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GameBackground_0
+      name: sandballchunk_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 720
-        height: 1024
+        x: 12
+        y: 11
+        width: 43
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,8 +167,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1daf3e9195a70840800000000000000
-      internalID: 5190299140411600157
+      spriteID: 84fc298eb1a547070800000000000000
+      internalID: 8103200705458917192
       vertices: []
       indices: 
       edges: []
@@ -187,7 +187,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GameBackground_0: 5190299140411600157
+      sandballchunk_0: 8103200705458917192
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

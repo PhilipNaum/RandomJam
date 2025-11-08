@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\assets\\scripts\\gyromove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gyromove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|d:\\profiles\\nso1035\\documents\\github\\randomjam\\sleep duster\\assets\\scripts\\baseballexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\baseballexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\assets\\scripts\\generateprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\generateprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\assets\\scripts\\projectilemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectilemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|d:\\profiles\\nso1035\\documents\\github\\randomjam\\sleep duster\\assets\\scripts\\healthtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|d:\\profiles\\nso1035\\documents\\github\\randomjam\\sleep duster\\assets\\scripts\\diewhengone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\diewhengone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|d:\\profiles\\nso1035\\documents\\github\\randomjam\\sleep duster\\assets\\scripts\\projectilemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectilemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,45 +26,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "HealthTracker.cs",
               "DocumentMoniker": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\HealthTracker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthTracker.cs",
               "ToolTip": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\HealthTracker.cs",
               "RelativeToolTip": "Assets\\Scripts\\HealthTracker.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwCMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T20:07:56.335Z",
+              "WhenOpened": "2025-11-08T22:28:07.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DieWhenGone.cs",
-              "DocumentMoniker": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\DieWhenGone.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DieWhenGone.cs",
-              "ToolTip": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\DieWhenGone.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DieWhenGone.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BaseballExplosion.cs",
+              "DocumentMoniker": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\BaseballExplosion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BaseballExplosion.cs",
+              "ToolTip": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\BaseballExplosion.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BaseballExplosion.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T18:34:19.514Z",
+              "WhenOpened": "2025-11-08T22:22:58.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProjectileMove.cs",
               "DocumentMoniker": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\ProjectileMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ProjectileMove.cs",
               "ToolTip": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\ProjectileMove.cs",
               "RelativeToolTip": "Assets\\Scripts\\ProjectileMove.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T18:15:51.189Z",
+              "WhenOpened": "2025-11-08T22:21:29.796Z",
               "EditorCaption": ""
             },
             {
@@ -79,22 +75,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GenerateProjectile.cs",
               "ToolTip": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\GenerateProjectile.cs",
               "RelativeToolTip": "Assets\\Scripts\\GenerateProjectile.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBEAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T03:09:59.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GyroMove.cs",
-              "DocumentMoniker": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\GyroMove.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GyroMove.cs",
-              "ToolTip": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\GyroMove.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GyroMove.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFEAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T00:24:48.914Z",
               "EditorCaption": ""
             }
           ]

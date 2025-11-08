@@ -6,7 +6,7 @@ public class GenerateProjectile : MonoBehaviour
 
     public float minGenerationWait;
 
-    public float generationFrequency;
+    public float variation;
 
     public float timer;
 
@@ -15,6 +15,7 @@ public class GenerateProjectile : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        timer = minGenerationWait;
         generationBounds = Camera.main.orthographicSize * Camera.main.aspect + 0.5f;
     }
 
@@ -71,6 +72,6 @@ public class GenerateProjectile : MonoBehaviour
 
         GameObject newProjectile = Instantiate(projectile, startPosition, rotation);
 
-        timer = minGenerationWait;
+        timer = minGenerationWait + Random.Range(0, variation);
     }
 }
