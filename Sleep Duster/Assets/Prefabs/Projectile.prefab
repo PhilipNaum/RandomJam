@@ -102,7 +102,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: {x: 0, y: 0, z: 0}
-  speed: 3
+  maxSpeed: 3
+  acceleration: {x: 0, y: 0, z: 0}
+  accelMag: 2
 --- !u!114 &4261516185854164795
 MonoBehaviour:
   m_ObjectHideFlags: 0
