@@ -11,3 +11,4 @@ MemoryCaptures/
 *.unityproj
 *.log
 .DS_Store
+.vsidx
