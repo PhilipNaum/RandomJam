@@ -1,0 +1,13 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+UserSettings/
+MemoryCaptures/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.unityproj
+*.log
+.DS_Store
