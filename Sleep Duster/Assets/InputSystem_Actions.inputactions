@@ -94,6 +94,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Touch",
+                    "type": "Button",
+                    "id": "a1f5f7ac-5696-418c-9966-8d05db27636b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -485,11 +494,22 @@
                 {
                     "name": "",
                     "id": "6ae63a87-e9a0-450e-bfd4-ccd8bff4372d",
-                    "path": "<TrackedDevice>/deviceRotation",
+                    "path": "<Gyroscope>/angularVelocity",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";XR;Joystick;Touch;Keyboard&Mouse;Gamepad",
                     "action": "MoveGyro",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4dfb9290-a825-48dd-afc4-315738e02f82",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse;Gamepad;Touch;Joystick;XR",
+                    "action": "Touch",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
