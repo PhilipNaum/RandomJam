@@ -3,6 +3,9 @@ using UnityEngine;
 public class ProjectileMove : MonoBehaviour
 {
     [SerializeField]
+    Vector3 position;
+
+    [SerializeField]
     Vector3 velocity = Vector3.zero;
 
     public float maxSpeed;
@@ -11,6 +14,8 @@ public class ProjectileMove : MonoBehaviour
     Vector3 acceleration;
 
     public float accelMag;
+
+    public Rigidbody2D rgBody;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,6 +27,7 @@ public class ProjectileMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (velocity.magnitude < maxSpeed)
         { 
             velocity += acceleration * Time.deltaTime;
@@ -31,5 +37,23 @@ public class ProjectileMove : MonoBehaviour
         }
 
         gameObject.transform.position += velocity * Time.deltaTime;
+        */
+    }
+
+    private void FixedUpdate()
+    {
+        position = transform.position;
+
+        if (velocity.magnitude < maxSpeed)
+        {
+            velocity += acceleration * Time.fixedDeltaTime;
+
+            if (velocity.magnitude > maxSpeed)
+                velocity = velocity.normalized * maxSpeed;
+        }
+
+        position += velocity * Time.fixedDeltaTime;
+
+        rgBody.MovePosition(position);
     }
 }
