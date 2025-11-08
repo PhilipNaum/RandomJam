@@ -10,5 +10,6 @@ MemoryCaptures/
 *.pidb
 *.unityproj
 *.log
+*.vsidx
 .DS_Store
-.vsidx
+
