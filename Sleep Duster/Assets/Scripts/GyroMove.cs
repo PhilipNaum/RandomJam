@@ -68,7 +68,7 @@ public class GyroMove : MonoBehaviour
 
         position += velocity * Time.fixedDeltaTime;
 
-        CircleBounds(1.5f);
+        CircleBounds(2f);
 
         rgBody.MovePosition(position);
     }
@@ -80,8 +80,6 @@ public class GyroMove : MonoBehaviour
         Vector3 desiredVelocity = new Vector3(rotation.x, rotation.y, 0).normalized * maxSpeed;
 
         Vector3 steeringForce = desiredVelocity - velocity;
-
-        sprite.color = Color.green;
 
         return steeringForce * weight;
     }

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|d:\\profiles\\nso1035\\documents\\github\\randomjam\\sleep duster\\assets\\scripts\\diewhengone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\diewhengone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\assets\\scripts\\gyromove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gyromove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\assets\\scripts\\generateprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\generateprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|d:\\profiles\\nso1035\\documents\\github\\randomjam\\sleep duster\\assets\\scripts\\projectilemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\assets\\scripts\\projectilemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectilemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\assets\\scripts\\gyromove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gyromove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|d:\\profiles\\nso1035\\documents\\github\\randomjam\\sleep duster\\assets\\scripts\\healthtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|d:\\profiles\\nso1035\\documents\\github\\randomjam\\sleep duster\\assets\\scripts\\diewhengone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\diewhengone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "HealthTracker.cs",
+              "DocumentMoniker": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\HealthTracker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthTracker.cs",
+              "ToolTip": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\HealthTracker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthTracker.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T20:07:56.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DieWhenGone.cs",
               "DocumentMoniker": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\DieWhenGone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DieWhenGone.cs",
@@ -49,7 +66,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ProjectileMove.cs",
               "ToolTip": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\ProjectileMove.cs",
               "RelativeToolTip": "Assets\\Scripts\\ProjectileMove.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T18:15:51.189Z",
               "EditorCaption": ""
@@ -62,22 +79,23 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GenerateProjectile.cs",
               "ToolTip": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\GenerateProjectile.cs",
               "RelativeToolTip": "Assets\\Scripts\\GenerateProjectile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBEAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T03:09:59.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "GyroMove.cs",
               "DocumentMoniker": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\GyroMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GyroMove.cs",
               "ToolTip": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\GyroMove.cs",
               "RelativeToolTip": "Assets\\Scripts\\GyroMove.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCsAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFEAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T00:24:48.914Z"
+              "WhenOpened": "2025-11-08T00:24:48.914Z",
+              "EditorCaption": ""
             }
           ]
         }
