@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class HealthTracker : MonoBehaviour
 {
-    public Collider2D player;
+    public SpriteRenderer playerSprite;
 
     [SerializeField]
     float maxHealth = 100;
@@ -21,13 +21,15 @@ public class HealthTracker : MonoBehaviour
     public string nextScene;
 
     [SerializeField]
-    float sceneChangeTimer = 5;
+    float sceneChangeTimer = 3;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         health = maxHealth;
-        healthDivision = maxHealth / spriteFrames.Length;
+        healthDivision = maxHealth / (spriteFrames.Length - 1) ;
+
+        Debug.Log($"Health: {health}, Division: {healthDivision}");
     }
 
     // Update is called once per frame
@@ -49,15 +51,16 @@ public class HealthTracker : MonoBehaviour
 
     private void UpdateSprite()
     {
-        sprRender.sprite = spriteFrames[(int) health % (int) healthDivision];
+        int index = (int) (maxHealth - health) / (int) healthDivision;
+
+        sprRender.sprite = spriteFrames[index];
     }
 
     private void DeadYet()
     {
         if (health <= 0)
         {
-            if (player.gameObject != null)
-                Destroy(player.gameObject);
+            playerSprite.color = Color.red;
 
             sceneChangeTimer -= Time.deltaTime;
 

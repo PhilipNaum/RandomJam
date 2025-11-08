@@ -5,6 +5,9 @@ using UnityEngine.UIElements;
 public class GyroMove : MonoBehaviour
 {
     [SerializeField]
+    Vector3 position;
+
+    [SerializeField]
     Vector3 velocity;
 
     public float maxSpeed;
@@ -13,6 +16,8 @@ public class GyroMove : MonoBehaviour
     Vector3 acceleration;
 
     public float gyroWeight;
+
+    public Rigidbody2D rgBody;
 
     public SpriteRenderer sprite;
 
@@ -30,6 +35,9 @@ public class GyroMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
+        position = gameObject.transform.position;
+
         acceleration = Vector3.zero;
         acceleration += GyroForce(gyroWeight);
         //acceleration += SeekCenter(3, 0.5f);
@@ -41,8 +49,28 @@ public class GyroMove : MonoBehaviour
 
         transform.position += velocity * Time.deltaTime;
 
-        circleBounds(1.5f);
-        Debug.Log("Update");
+        CircleBounds(1.5f);
+        */
+    }
+
+    private void FixedUpdate()
+    {
+        position = gameObject.transform.position;
+
+        acceleration = Vector3.zero;
+        acceleration += GyroForce(gyroWeight);
+        //acceleration += SeekCenter(3, 0.5f);
+
+        velocity += acceleration * Time.fixedDeltaTime;
+
+        if (velocity.magnitude > maxSpeed)
+            velocity = velocity.normalized * maxSpeed;
+
+        position += velocity * Time.fixedDeltaTime;
+
+        CircleBounds(1.5f);
+
+        rgBody.MovePosition(position);
     }
 
     private Vector3 GyroForce(float weight)
@@ -62,15 +90,17 @@ public class GyroMove : MonoBehaviour
     // Circle Bounds
     //
 
-    private void circleBounds(float radius)
+    private void CircleBounds(float radius)
     {
+        Debug.Log("occured");
+
         Vector3 center = Vector3.zero;
 
-        Vector3 distance = (gameObject.transform.position - center);
+        Vector3 distance = (position - center);
 
         if (distance.magnitude > radius)
         {
-            gameObject.transform.position = center + distance.normalized * radius;
+            position = center + distance.normalized * radius;
         }
     }
 
@@ -85,7 +115,7 @@ public class GyroMove : MonoBehaviour
 
     protected Vector3 Seek(Vector3 point, float weight)
     {
-        Vector3 desiredVelocity = point - gameObject.transform.position;
+        Vector3 desiredVelocity = point - position;
         desiredVelocity = desiredVelocity.normalized * maxSpeed;
 
         Vector3 steeringForce = desiredVelocity - velocity;
@@ -101,7 +131,7 @@ public class GyroMove : MonoBehaviour
     {
         Vector3 center = Vector3.zero;
 
-        float distance = (gameObject.transform.position - center).magnitude;
+        float distance = (position - center).magnitude;
 
         if (distance > radius)
         {
