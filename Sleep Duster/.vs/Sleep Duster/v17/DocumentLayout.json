@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\noahn\\Sleep Duster\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|c:\\users\\noahn\\sleep duster\\assets\\scripts\\gyromove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gyromove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GyroMove.cs",
+              "DocumentMoniker": "C:\\Users\\noahn\\Sleep Duster\\Assets\\Scripts\\GyroMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GyroMove.cs",
+              "ToolTip": "C:\\Users\\noahn\\Sleep Duster\\Assets\\Scripts\\GyroMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GyroMove.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T00:24:48.914Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
