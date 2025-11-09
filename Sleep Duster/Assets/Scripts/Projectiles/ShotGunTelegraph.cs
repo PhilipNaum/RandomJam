@@ -30,6 +30,8 @@ public class ShotGunTelegraph : MonoBehaviour
     [SerializeField]
     float timer;
 
+    private ParticleSystem shotGunBlast;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -44,7 +46,8 @@ public class ShotGunTelegraph : MonoBehaviour
         startingDistance = position.magnitude;
         distance = position.magnitude;
 
-
+        shotGunBlast = GetComponentInChildren<ParticleSystem>();
+        shotGunBlast.Stop();
     }
 
     // Update is called once per frame
@@ -78,6 +81,7 @@ public class ShotGunTelegraph : MonoBehaviour
                 fire = true;
                 timer = stayTime;
                 Instantiate(shotGunSpray, new Vector3(position.x, position.y, .25f), Quaternion.Euler(0, 0, transform.rotation.eulerAngles.z - 90));
+                shotGunBlast.Play();
             }
         }
         else
