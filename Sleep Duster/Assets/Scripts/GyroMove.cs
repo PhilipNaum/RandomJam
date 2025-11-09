@@ -66,6 +66,8 @@ public class GyroMove : MonoBehaviour
         if (velocity.magnitude > maxSpeed)
             velocity = velocity.normalized * maxSpeed;
 
+        AngleByVelocity();
+
         position += velocity * Time.fixedDeltaTime;
 
         CircleBounds(2f);
@@ -102,42 +104,10 @@ public class GyroMove : MonoBehaviour
         }
     }
 
-    //
-    // Seek
-    //
-
-    protected Vector3 Seek(Vector3 point)
+    private void AngleByVelocity()
     {
-        return Seek(point, 1);
-    }
-
-    protected Vector3 Seek(Vector3 point, float weight)
-    {
-        Vector3 desiredVelocity = point - position;
-        desiredVelocity = desiredVelocity.normalized * maxSpeed;
-
-        Vector3 steeringForce = desiredVelocity - velocity;
-        return steeringForce * weight;
-    }
-
-    protected Vector3 SeekCenter()
-    {
-        return SeekCenter(3, 2);
-    }
-
-    protected Vector3 SeekCenter(float radius, float weight)
-    {
-        Vector3 center = Vector3.zero;
-
-        float distance = (position - center).magnitude;
-
-        if (distance > radius)
-        {
-            return (Seek(center, distance * weight * 0.1f));
-        }
-        else
-        {
-            return Vector3.zero;
-        }
+        float angle = Mathf.Atan2(velocity.y, velocity.x) * Mathf.Deg2Rad + 180;
+        
+        transform.rotation = new Quaternion(transform.rotation.x, transform.rotation.y, angle, transform.rotation.w);
     }
 }

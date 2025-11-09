@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\assets\\scripts\\generateprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\assets\\scripts\\gyromove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gyromove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\assets\\scripts\\baseballexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\baseballexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|d:\\profiles\\nso1035\\documents\\github\\randomjam\\sleep duster\\assets\\scripts\\generateprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\generateprojectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,20 +19,16 @@
       "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|d:\\profiles\\nso1035\\documents\\github\\randomjam\\sleep duster\\assets\\scripts\\movetoscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movetoscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\assets\\scripts\\projectilemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectilemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\assets\\scripts\\gyromove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gyromove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|d:\\profiles\\nso1035\\documents\\github\\randomjam\\sleep duster\\assets\\scripts\\timerdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timerdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\assets\\scripts\\baseballexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\baseballexplosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\assets\\scripts\\movetoscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movetoscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0021C512-8300-EFEC-6861-8A34D99B51F3}|Assembly-CSharp.csproj|D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\assets\\scripts\\explode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "TimerDisplay.cs",
+              "DocumentMoniker": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\TimerDisplay.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TimerDisplay.cs",
+              "ToolTip": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\TimerDisplay.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TimerDisplay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T03:27:41.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MoveToScene.cs",
               "DocumentMoniker": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\MoveToScene.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MoveToScene.cs",
@@ -50,24 +67,24 @@
               "RelativeToolTip": "Assets\\Scripts\\MoveToScene.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T01:50:00.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T01:50:00.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "GyroMove.cs",
               "DocumentMoniker": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\GyroMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GyroMove.cs",
               "ToolTip": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\GyroMove.cs",
               "RelativeToolTip": "Assets\\Scripts\\GyroMove.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwE8AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T00:09:44.289Z"
+              "WhenOpened": "2025-11-09T00:09:44.289Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "BaseballExplosion.cs",
               "DocumentMoniker": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\BaseballExplosion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BaseballExplosion.cs",
@@ -75,11 +92,12 @@
               "RelativeToolTip": "Assets\\Scripts\\BaseballExplosion.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwDEAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:22:58.815Z"
+              "WhenOpened": "2025-11-08T22:22:58.815Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Explode.cs",
               "DocumentMoniker": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\Explode.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Explode.cs",
@@ -91,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HealthTracker.cs",
               "DocumentMoniker": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\HealthTracker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthTracker.cs",
@@ -104,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProjectileMove.cs",
               "DocumentMoniker": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\ProjectileMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ProjectileMove.cs",
@@ -112,17 +130,18 @@
               "RelativeToolTip": "Assets\\Scripts\\ProjectileMove.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:21:29.796Z"
+              "WhenOpened": "2025-11-08T22:21:29.796Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GenerateProjectile.cs",
               "DocumentMoniker": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\GenerateProjectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GenerateProjectile.cs",
-              "ToolTip": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\GenerateProjectile.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\GenerateProjectile.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Assets\\Scripts\\GenerateProjectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GenerateProjectile.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T03:09:59.191Z",
               "EditorCaption": ""
