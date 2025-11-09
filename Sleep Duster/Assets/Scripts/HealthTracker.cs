@@ -25,6 +25,8 @@ public class HealthTracker : MonoBehaviour
 
     private float timer = 0;
 
+    public GameObject blackOut;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -67,7 +69,8 @@ public class HealthTracker : MonoBehaviour
     {
         if (health <= 0)
         {
-            playerSprite.color = Color.red;
+            //playerSprite.color = Color.red;
+            Instantiate(blackOut);
 
             sceneChangeTimer -= Time.deltaTime;
 
