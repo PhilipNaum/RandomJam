@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1081734668913084211}
   - component: {fileID: 5236479111078185711}
   - component: {fileID: 9095763411368728522}
+  - component: {fileID: 1192090599690697722}
   m_Layer: 0
   m_Name: Shotgun Spray
   m_TagString: sand
@@ -181,3 +182,16 @@ MonoBehaviour:
   acceleration: {x: 0, y: 0, z: 0}
   accelMag: 50
   rgBody: {fileID: 1081734668913084211}
+--- !u!114 &1192090599690697722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6987535156470337965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1ef78fa8dc63f0469c07c0772f58248, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 4033683442930586063, guid: bf1c6a1242bbe3d4a9ad4f2804cb4552, type: 3}
