@@ -55,9 +55,9 @@ public class HealthTracker : MonoBehaviour
 
     private void UpdateSprite()
     {
-        int index = 0;
+        int index = spriteFrames.Length - 1;
 
-        if (health < maxHealth)
+        if (health > 0)
             index = (int) (maxHealth - health) / (int) healthDivision;
 
         sprRender.sprite = spriteFrames[index];
