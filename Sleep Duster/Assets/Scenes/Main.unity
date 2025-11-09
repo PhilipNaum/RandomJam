@@ -610,13 +610,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ebb5063bf132f34f8c334e8630135fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activationTimer: 0
+  activationTimer: 15
   projectiles:
   - {fileID: 5492679766273584111, guid: 8fca75e1fa017664ea1311ff2110e7bb, type: 3}
   diffIncTime: 20
   changeTimer: 0
-  minGenerationWait: 0.5
-  variation: 1
+  minGenerationWait: 5
+  variation: 5
   timer: 0
 --- !u!4 &802369210
 Transform:

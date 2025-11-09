@@ -133,6 +133,8 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   velocity: {x: 0, y: 0, z: 0}
   startingSpeed: 1
-  telegraphTime: 2
+  distanceStop: 2.5
+  distance: 0
+  telegraphTime: 1
   stayTime: 1
   timer: 0

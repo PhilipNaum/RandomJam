@@ -14,6 +14,13 @@ public class ShotGunTelegraph : MonoBehaviour
 
     public float startingSpeed;
 
+    public float distanceStop;
+
+    [SerializeField]
+    float distance;
+
+    private float startingDistance;
+
     public float telegraphTime;
 
     public float stayTime;
@@ -32,6 +39,12 @@ public class ShotGunTelegraph : MonoBehaviour
         velocity = new Vector3(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad), 0).normalized * startingSpeed;
 
         transform.rotation = Quaternion.Euler(0, 0, angle);
+
+        position = transform.position;
+        startingDistance = position.magnitude;
+        distance = position.magnitude;
+
+
     }
 
     // Update is called once per frame
@@ -43,20 +56,28 @@ public class ShotGunTelegraph : MonoBehaviour
     private void FixedUpdate()
     {
         position = transform.position;
+        distance = position.magnitude;
 
         if (!fire)
         {
             if (timer > 0)
             {
+              
                 timer -= Time.fixedDeltaTime;
-                velocity = velocity.normalized * startingSpeed * (timer / telegraphTime);
-                position += velocity * Time.fixedDeltaTime;
+                
+                
+                //velocity = velocity.normalized * startingSpeed * (timer / telegraphTime);
+                //position += velocity * Time.fixedDeltaTime;
+                
+
+                distance = (timer / telegraphTime) * (startingDistance - distanceStop) + distanceStop;
+                position = position.normalized * distance;
             }
             else
             {
                 fire = true;
                 timer = stayTime;
-                Instantiate(shotGunSpray, position, Quaternion.Euler(0, 0, transform.rotation.eulerAngles.z - 90));
+                Instantiate(shotGunSpray, new Vector3(position.x, position.y, .25f), Quaternion.Euler(0, 0, transform.rotation.eulerAngles.z - 90));
             }
         }
         else
