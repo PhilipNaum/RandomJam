@@ -23,6 +23,8 @@ public class HealthTracker : MonoBehaviour
     [SerializeField]
     float sceneChangeTimer = 3;
 
+    private float timer = 0;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -35,6 +37,8 @@ public class HealthTracker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        timer += Time.deltaTime;   
+
         UpdateSprite();
         DeadYet();
     }
@@ -51,7 +55,10 @@ public class HealthTracker : MonoBehaviour
 
     private void UpdateSprite()
     {
-        int index = (int) (maxHealth - health) / (int) healthDivision;
+        int index = 0;
+
+        if (health < maxHealth)
+            index = (int) (maxHealth - health) / (int) healthDivision;
 
         sprRender.sprite = spriteFrames[index];
     }
@@ -66,6 +73,7 @@ public class HealthTracker : MonoBehaviour
 
             if (sceneChangeTimer <= 0)
             {
+                PlayerPrefs.SetFloat("Time", timer);
                 SceneManager.LoadScene(nextScene);
             }
         }

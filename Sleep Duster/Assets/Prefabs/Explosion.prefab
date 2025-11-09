@@ -166,5 +166,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionTimer: 0
-  timeToExplode: 0.3
+  timeToExplode: 0.5
   explodeFinalScale: 5

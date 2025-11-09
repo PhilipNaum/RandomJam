@@ -546,6 +546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ebb5063bf132f34f8c334e8630135fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activationTimer: 0
   projectile: {fileID: 5912036099157153649, guid: 254e693818c1a8f44a10387bc2db129d, type: 3}
   minGenerationWait: 1
   variation: 0
@@ -594,6 +595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ebb5063bf132f34f8c334e8630135fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activationTimer: 5
   projectile: {fileID: 6069990680235042465, guid: 38e53a3cb3ccb394b9af2cf910f42f22, type: 3}
   minGenerationWait: 3
   variation: 0.5

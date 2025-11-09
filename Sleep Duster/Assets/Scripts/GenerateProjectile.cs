@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class GenerateProjectile : MonoBehaviour
 {
+    public float activationTimer;
+
     public GameObject projectile;
 
     public float minGenerationWait;
@@ -22,14 +24,21 @@ public class GenerateProjectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timer > 0)
+        if (activationTimer < 0)
         {
-            timer -= Time.deltaTime;
+            if (timer > 0)
+            {
+                timer -= Time.deltaTime;
+            }
+            else
+            {
+                //float
+                Generate();
+            }
         }
         else
         {
-            //float
-            Generate();
+            activationTimer -= Time.deltaTime;
         }
     }
 
