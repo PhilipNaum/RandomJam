@@ -21,6 +21,7 @@ public class PlayOnCollision : MonoBehaviour
     {
         if (collision.gameObject.tag == tagName)
         {
+            sound.enabled = true;
             sound.Play();
         }
     }
