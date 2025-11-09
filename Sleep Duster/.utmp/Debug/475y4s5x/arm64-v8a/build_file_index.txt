@@ -1,3 +1,3 @@
-D:\Profiles\nso1035\Documents\GitHub\RandomJam\Sleep Duster\Library\PramData\AndroidApplicationController\Cache\LightningPorcupines.SleepDuster\gradle-project\unityLibrary\src\main\cpp\CMakeLists.txt
-D:\Profiles\nso1035\Documents\GitHub\RandomJam\Sleep Duster\Library\PramData\AndroidApplicationController\Cache\LightningPorcupines.SleepDuster\gradle-project\unityLibrary\src\main\cpp\FramePacing\CMakeLists.txt
-D:\Profiles\nso1035\Documents\GitHub\RandomJam\Sleep Duster\Library\PramData\AndroidApplicationController\Cache\LightningPorcupines.SleepDuster\gradle-project\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
+D:\Profiles\nso1035\Documents\GitHub\RandomJam\Sleep Duster\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+D:\Profiles\nso1035\Documents\GitHub\RandomJam\Sleep Duster\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\CMakeLists.txt
+D:\Profiles\nso1035\Documents\GitHub\RandomJam\Sleep Duster\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

@@ -1,4 +1,4 @@
-# Install script for directory: D:/Profiles/nso1035/Documents/GitHub/RandomJam/Sleep Duster/Library/PramData/AndroidApplicationController/Cache/LightningPorcupines.SleepDuster/gradle-project/unityLibrary/src/main/cpp/FramePacing
+# Install script for directory: D:/Profiles/nso1035/Documents/GitHub/RandomJam/Sleep Duster/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/FramePacing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
