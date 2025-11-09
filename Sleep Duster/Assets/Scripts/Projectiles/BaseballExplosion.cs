@@ -45,7 +45,7 @@ public class BaseballExplosion : MonoBehaviour
             if (timer > 0)
             {
                 ballRender.sprite = aboutToExplode;
-                ballRender.color = Color.red;
+                //ballRender.color = Color.red;
 
                 timer -= Time.deltaTime;
             }

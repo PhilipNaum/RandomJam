@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayOnCollision : MonoBehaviour
 {
-    public AudioSource sound;
+    public GameObject sound;
     public string tagName;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -21,8 +21,11 @@ public class PlayOnCollision : MonoBehaviour
     {
         if (collision.gameObject.tag == tagName)
         {
-            sound.enabled = true;
-            sound.Play();
+            GameObject newSound = Instantiate(sound);
+            AudioSource clip = newSound.GetComponent<AudioSource>();
+            clip.Play();
+
+            Destroy(newSound, clip.clip.length);
         }
     }
 }

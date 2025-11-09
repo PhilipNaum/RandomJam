@@ -2,14 +2,16 @@ using UnityEngine;
 
 public class PlaySoundOnCreation : MonoBehaviour
 {
-    public AudioSource sound;
-    private bool playedYet = false;
+    public GameObject sound;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        sound.enabled = true;
-        sound.Play();
+        GameObject newSound = Instantiate(sound);
+        AudioSource clip = newSound.GetComponent<AudioSource>();
+        clip.Play();
+
+        Destroy(newSound, clip.clip.length);
     }
 
     // Update is called once per frame

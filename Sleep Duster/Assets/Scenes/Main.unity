@@ -1394,7 +1394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 383ac19c3f72e694ab3aa6cd561b560c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound: {fileID: 6505623822522600109, guid: a2dfbeca385eb42499c176f51408d9fd, type: 3}
+  sound: {fileID: 4093492507324517868, guid: a2dfbeca385eb42499c176f51408d9fd, type: 3}
   tagName: sand
 --- !u!1 &1986374278
 GameObject:
