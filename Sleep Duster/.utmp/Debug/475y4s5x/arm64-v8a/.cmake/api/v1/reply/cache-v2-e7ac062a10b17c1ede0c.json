@@ -739,7 +739,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Profiles/nso1035/Documents/GitHub/RandomJam/Sleep Duster/Library/PramData/AndroidApplicationController/Cache/LightningPorcupines.SleepDuster/gradle-project/unityLibrary/src/main/cpp"
+			"value" : "D:/Profiles/nso1035/Documents/GitHub/RandomJam/Sleep Duster/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -775,7 +775,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Library\\PramData\\AndroidApplicationController\\Cache\\LightningPorcupines.SleepDuster\\gradle-project\\unityLibrary\\build\\intermediates\\cxx\\Debug\\475y4s5x\\obj\\arm64-v8a"
+			"value" : "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\cxx\\Debug\\475y4s5x\\obj\\arm64-v8a"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1047,7 +1047,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Library\\PramData\\AndroidApplicationController\\Cache\\LightningPorcupines.SleepDuster\\gradle-project\\unityLibrary\\build\\intermediates\\cxx\\Debug\\475y4s5x\\obj\\arm64-v8a"
+			"value" : "D:\\Profiles\\nso1035\\Documents\\GitHub\\RandomJam\\Sleep Duster\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\cxx\\Debug\\475y4s5x\\obj\\arm64-v8a"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1343,7 +1343,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Profiles/nso1035/Documents/GitHub/RandomJam/Sleep Duster/Library/PramData/AndroidApplicationController/Cache/LightningPorcupines.SleepDuster/gradle-project/unityLibrary/src/main/cpp"
+			"value" : "D:/Profiles/nso1035/Documents/GitHub/RandomJam/Sleep Duster/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp"
 		},
 		{
 			"name" : "game-activity_DIR",
@@ -1403,7 +1403,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Profiles/nso1035/Documents/GitHub/RandomJam/Sleep Duster/Library/PramData/AndroidApplicationController/Cache/LightningPorcupines.SleepDuster/gradle-project/unityLibrary/src/main/cpp/GameActivity"
+			"value" : "D:/Profiles/nso1035/Documents/GitHub/RandomJam/Sleep Duster/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity"
 		},
 		{
 			"name" : "games-frame-pacing_DIR",
@@ -1463,7 +1463,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Profiles/nso1035/Documents/GitHub/RandomJam/Sleep Duster/Library/PramData/AndroidApplicationController/Cache/LightningPorcupines.SleepDuster/gradle-project/unityLibrary/src/main/cpp/FramePacing"
+			"value" : "D:/Profiles/nso1035/Documents/GitHub/RandomJam/Sleep Duster/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/FramePacing"
 		}
 	],
 	"kind" : "cache",
