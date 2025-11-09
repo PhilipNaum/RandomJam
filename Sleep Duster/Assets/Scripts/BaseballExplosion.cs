@@ -18,11 +18,6 @@ public class BaseballExplosion : MonoBehaviour
 
     private bool exploding = false;
 
-    [SerializeField]
-    ParticleSystem explosionEffect;
-
-    private ParticleSystem explosionInstance;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -53,7 +48,7 @@ public class BaseballExplosion : MonoBehaviour
             {
                 GameObject newExplosion = Instantiate(explosion);
                 newExplosion.transform.position = transform.position;
-                explosionInstance = Instantiate(explosionEffect,transform.position, Quaternion.identity);
+
                 Destroy(gameObject);
             }
         }
