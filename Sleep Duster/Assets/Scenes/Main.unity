@@ -1304,6 +1304,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSprite: {fileID: 1798170610}
+  hurtSprite: {fileID: 21300000, guid: 066336d9c5fb72e4cbb37fb964f43089, type: 3}
+  normalSprite: {fileID: 21300000, guid: a9dac8ddd6f0e024a865cf94b340dc18, type: 3}
   maxHealth: 100
   health: 0
   spriteFrames:
@@ -1316,6 +1318,7 @@ MonoBehaviour:
   nextScene: Good Night
   sceneChangeTimer: 0.8
   blackOut: {fileID: 2309514253073712989, guid: 0aad644c38c0a90409ccd13dfa9d0dc9, type: 3}
+  hurtSpriteTimer: 1
 --- !u!58 &1798170613
 CircleCollider2D:
   m_ObjectHideFlags: 0

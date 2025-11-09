@@ -6,6 +6,14 @@ public class HealthTracker : MonoBehaviour
 {
     public SpriteRenderer playerSprite;
 
+    //normal sprite
+    [SerializeField]
+    Sprite hurtSprite;
+
+    //hurt sprite
+    [SerializeField]
+    Sprite normalSprite;
+
     [SerializeField]
     float maxHealth = 100;
 
@@ -27,9 +35,18 @@ public class HealthTracker : MonoBehaviour
 
     public GameObject blackOut;
 
+    //hurt timer
+    [SerializeField]
+    float hurtSpriteTimer = 1;
+
+    //bool to see if player got hit
+    private bool hit;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        hit = false;
         health = maxHealth;
         healthDivision = maxHealth / (spriteFrames.Length - 1) ;
 
@@ -43,6 +60,19 @@ public class HealthTracker : MonoBehaviour
 
         UpdateSprite();
         DeadYet();
+
+        //if hurt, start hurt timer
+        hurtSpriteTimer -= Time.deltaTime;
+
+        if(hurtSpriteTimer <= 0)
+        {
+            //reset sprite
+            playerSprite.sprite = normalSprite;
+            //set hurt to false
+            hit = false;
+            //reset timer
+            hurtSpriteTimer = 1;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -52,6 +82,12 @@ public class HealthTracker : MonoBehaviour
             health -= 10;
 
             Destroy(collision.gameObject);
+
+            //change sprite to hurt sprite
+            playerSprite.sprite = hurtSprite;
+            //set hit to true
+            hit = true;
+
         }
     }
 
