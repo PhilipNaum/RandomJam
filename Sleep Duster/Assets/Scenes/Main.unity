@@ -1183,7 +1183,7 @@ MonoBehaviour:
   - {fileID: 293914733040363875, guid: b92ff9b4172f6814e8c79e5209c61441, type: 3}
   - {fileID: -6948706378213775655, guid: b92ff9b4172f6814e8c79e5209c61441, type: 3}
   sprRender: {fileID: 1530744938}
-  nextScene: Title
+  nextScene: Good Night
   sceneChangeTimer: 0.8
   blackOut: {fileID: 2309514253073712989, guid: 0aad644c38c0a90409ccd13dfa9d0dc9, type: 3}
 --- !u!58 &1798170613

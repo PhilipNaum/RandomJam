@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6703875750512831386}
   - component: {fileID: 5413910122563666382}
   - component: {fileID: 2253270021946159532}
+  - component: {fileID: 6809071887200997122}
   m_Layer: 0
   m_Name: Projectile 2
   m_TagString: sand
@@ -198,3 +199,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e903bf3398e275b48b008399a368b74f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6809071887200997122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2770431084541304150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8634742c17f4584c9a1c8e8d856184c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sandParticles: {fileID: 8505395426292812353, guid: fa51e265609eb04418811e17c9d3846e, type: 3}
