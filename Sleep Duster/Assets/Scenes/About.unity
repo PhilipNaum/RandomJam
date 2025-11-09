@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 736392571}
   - component: {fileID: 736392570}
   m_Layer: 5
-  m_Name: AcutalCredits
+  m_Name: FlavorText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,8 +153,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 90}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 7.9, y: 82.1}
+  m_SizeDelta: {x: 222.84, y: 48.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &736392570
 MonoBehaviour:
@@ -176,27 +176,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Programming:
-
-    Noah O''Neill
-
-
-    Music and Sound:
-
-    Austin Bonbrake
-
-
-    Art:
-
-    Philip
-    Naumovski
-
-
-    Font:
-
-    Yoster''s Island
-
-    by codeman38'
+  m_text: Try not to fall asleep by tilting the screen to avoid the Sandman's attacks!
+    He'll send various attacks to attack the manifestation of your concious, Conni
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 558eb930b0b1f264fa864ca728a75c2e, type: 2}
   m_sharedMaterial: {fileID: -8036998021660551979, guid: 558eb930b0b1f264fa864ca728a75c2e, type: 2}
@@ -785,7 +766,7 @@ GameObject:
   - component: {fileID: 1900363220}
   - component: {fileID: 1900363219}
   m_Layer: 5
-  m_Name: Credits
+  m_Name: About
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -807,7 +788,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 25, y: 182}
+  m_AnchoredPosition: {x: 8.4, y: 152.2}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1900363219
@@ -830,10 +811,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Credits:
-
-
-'
+  m_text: 'About:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 558eb930b0b1f264fa864ca728a75c2e, type: 2}
   m_sharedMaterial: {fileID: -8036998021660551979, guid: 558eb930b0b1f264fa864ca728a75c2e, type: 2}
@@ -867,7 +845,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
