@@ -2,15 +2,27 @@ using UnityEngine;
 
 public class GenerateProjectile : MonoBehaviour
 {
+    [Header("Time Until Generation Begins")]
     public float activationTimer;
 
-    public GameObject projectile;
+    [Header("Projectiles (place in incrementing order of difficulty) and Timer for Progressing to Down List")]
+    public GameObject[] projectiles;
 
+    public float diffIncTime = 10;
+
+    [SerializeField]
+    float changeTimer;
+
+    private int index;
+
+
+    [Header("Minimum Time Until a Projectile is Generated and Possible Varation on the Wait Time")]
     public float minGenerationWait;
 
     public float variation;
 
-    public float timer;
+    [SerializeField]
+    float timer;
 
     private float generationBounds;
 
@@ -19,6 +31,9 @@ public class GenerateProjectile : MonoBehaviour
     {
         timer = minGenerationWait;
         generationBounds = Camera.main.orthographicSize * Camera.main.aspect + 0.5f;
+
+        changeTimer = diffIncTime;
+        index = 0;
     }
 
     // Update is called once per frame
@@ -34,6 +49,19 @@ public class GenerateProjectile : MonoBehaviour
             {
                 //float
                 Generate();
+            }
+
+            if (index < projectiles.Length - 1)
+            {
+                if (changeTimer > 0)
+                {
+                    changeTimer -= Time.deltaTime;
+                }
+                else
+                {
+                    index++;
+                    changeTimer = diffIncTime;
+                }
             }
         }
         else
@@ -79,7 +107,7 @@ public class GenerateProjectile : MonoBehaviour
 
         Quaternion rotation = Quaternion.Euler(0, 0, lookAngle);
 
-        GameObject newProjectile = Instantiate(projectile, startPosition, rotation);
+        GameObject newProjectile = Instantiate(projectiles[index], startPosition, rotation);
 
         timer = minGenerationWait + Random.Range(0, variation);
     }
