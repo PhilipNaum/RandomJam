@@ -205,6 +205,7 @@ MonoBehaviour:
   explosion: {fileID: 5763158994478069230, guid: c73aee9ac645ea84c9c01246a8ebe2e0, type: 3}
   ballRender: {fileID: 6171783206186156635}
   aboutToExplode: {fileID: 21300000, guid: f7f5150465d80d54db82edeabfe6f3d0, type: 3}
+  explosionEffect: {fileID: 8375558045959176885, guid: f827a5a9992c0454cac8ce1bc8557274, type: 3}
 --- !u!114 &8583765120848579977
 MonoBehaviour:
   m_ObjectHideFlags: 0
