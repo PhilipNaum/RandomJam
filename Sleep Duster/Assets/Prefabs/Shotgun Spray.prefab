@@ -177,7 +177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   position: {x: 0, y: 0, z: 0}
   velocity: {x: 0, y: 0, z: 0}
-  maxSpeed: 15
+  maxSpeed: 30
   acceleration: {x: 0, y: 0, z: 0}
-  accelMag: 20
+  accelMag: 50
   rgBody: {fileID: 1081734668913084211}
