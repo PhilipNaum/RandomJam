@@ -92,8 +92,6 @@ public class GyroMove : MonoBehaviour
 
     private void CircleBounds(float radius)
     {
-        Debug.Log("occured");
-
         Vector3 center = Vector3.zero;
 
         Vector3 distance = (position - center);
@@ -106,8 +104,8 @@ public class GyroMove : MonoBehaviour
 
     private void AngleByVelocity()
     {
-        float angle = Mathf.Atan2(velocity.y, velocity.x) * Mathf.Deg2Rad + 180;
-        
-        transform.rotation = new Quaternion(transform.rotation.x, transform.rotation.y, angle, transform.rotation.w);
+        float angle = Mathf.Atan2(velocity.y, velocity.x) * Mathf.Rad2Deg + 90;
+
+        rgBody.MoveRotation(angle);
     }
 }
